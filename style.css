@@ -23,8 +23,7 @@ h1 {
 }
 
 p {
-  font-family: Times New Roman, Times, serif;
-  align-items: right;
+  font-family: Times New Roman;
   background-color: green;
-  font-family: Georgia, Times New Roman, Times, serif;
+  font-family: Times New Roman;
 }
