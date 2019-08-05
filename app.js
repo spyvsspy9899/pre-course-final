@@ -21,6 +21,8 @@ function forLoop() {
   }
 }
 
+forLoop()
+
 //conditional statements
 var a = 21
 var b = 33
@@ -29,7 +31,7 @@ var c = 1
 //if statement #1 with function
 function GreaterThan() {
   if (a > b) {
-    console.log(a < b);
+    console.log(a > b);
   } else if (c > a) {
     console.log('this is false');
   } else {
@@ -39,12 +41,31 @@ function GreaterThan() {
 
 GreaterThan()
 
+OR
+
+var a = 21
+var b = 23
+var c = 1
+
+function GreaterThan() {
+    console.log(a > b); {
+} else if (c < a) {
+  console.log(c < a) {
+  } else {
+    console.log('c is not greater than a');
+  }
+}
+
+GreaterThan()  
+
 var a = 1
 var b = 2
 var c = 3
 
 function printHellofriends() {}
-if (a < c) {} else if (b > a) {} else if (c > a) {
+if (a < c) {
+} else if (b > a) {
+} else if (c > a) {
   console.log('Hello friends');
 }
 
@@ -80,8 +101,9 @@ greetings()
 //for statement #1 with function
 function printDogs() {
   var dogBreeds = ['Doberman', 'GreatDane', 'Husky']
-  for (var z = 0; z < dogBreeds.length; z++) {
-    console.log(dogBreeds[z])
+  var z = 0
+  for (var Doberman = 1; Doberman < dogBreeds.length; Doberman++) {
+    console.log(dogBreeds[Doberman])
   }
 }
 
