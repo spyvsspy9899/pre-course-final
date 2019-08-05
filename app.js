@@ -41,23 +41,6 @@ function GreaterThan() {
 
 GreaterThan()
 
-OR
-
-var a = 21
-var b = 23
-var c = 1
-
-function GreaterThan() {
-    console.log(a > b); {
-} else if (c < a) {
-  console.log(c < a) {
-  } else {
-    console.log('c is not greater than a');
-  }
-}
-
-GreaterThan()  
-
 var a = 1
 var b = 2
 var c = 3
@@ -101,27 +84,29 @@ greetings()
 //for statement #1 with function
 function printDogs() {
   var dogBreeds = ['Doberman', 'GreatDane', 'Husky']
-  var z = 0
-  for (var Doberman = 1; Doberman < dogBreeds.length; Doberman++) {
-    console.log(dogBreeds[Doberman])
+  for (var z = 0; z < dogBreeds.length; z++) {
+    console.log(dogBreeds[z])
   }
 }
 
 printDogs()
 
 //for statement #2 with function
-function Tupacshooter() {
+function printTupacshooter() {
   var tupacShooters = ['sugknight', 'biggie', 'tupac'];
-  var tupacsshooter = 33;
-  for (var Tupacshooter = 33; tupac < tupacShooters.length; tupac++) {
-    console.log(tupacShooters);
-  }
-}
+  for (var j = 1; j < tupacShooters.length; j++) {
+    console.log(tupacShooter[j])
+   }
+ }
+
+Tupacshooter()
 
 //for function #3
-function PrintGucci() {
+function printGucci() {
   var guccimane = ['icy', 'polarbear', 'ak47']
-  for (var z = 3; z < guccimane.length; z++); {
+  for (var z = 4; z < guccimane.length; z++); {
     console.log(guccimane[Z])
   }
 }
+
+printGucci
